@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mail-link</title>
+</head>
+<body>
+    <p id="maillink"></p>
+
+    <script>
+        const name = "Nikolai"
+        const mail = "Nikolaio@hiof.no"
+
+        const emaillink = `<a href="mailto:${mail}">send mail til ${name}</a>`
+
+        document.getElementById("maillink").innerHTML = emaillink
+    </script>
+
+
+</body>
+</html>
